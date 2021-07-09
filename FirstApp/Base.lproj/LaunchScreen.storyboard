@@ -24,12 +24,10 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemBlueColor"/>
                         <constraints>
-                            <constraint firstItem="WJ7-js-FYd" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Jgq-UP-Hf9"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WJ7-js-FYd" secondAttribute="trailing" constant="106.5" id="SGP-wt-q1z"/>
-                            <constraint firstItem="WJ7-js-FYd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="106.5" id="Soo-ji-K3B"/>
-                            <constraint firstItem="WJ7-js-FYd" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="cxc-7T-5e9"/>
+                            <constraint firstItem="WJ7-js-FYd" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="PHr-RF-iPh"/>
+                            <constraint firstItem="WJ7-js-FYd" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="QS1-RZ-vhk"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -39,8 +37,8 @@
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
