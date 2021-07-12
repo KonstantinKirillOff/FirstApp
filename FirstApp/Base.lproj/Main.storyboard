@@ -32,6 +32,9 @@
                                 <state key="normal" title="Show text">
                                     <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="startButtonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dta-yt-ZSw"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -44,10 +47,14 @@
                             <constraint firstItem="vNs-yj-584" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="51" id="vyX-S1-LlS"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="helloWorldLabel" destination="vNs-yj-584" id="hmg-W6-neR"/>
+                        <outlet property="showTextButton" destination="t12-ER-10K" id="ai9-wZ-uFy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-394" y="91"/>
+            <point key="canvasLocation" x="-452" y="-27"/>
         </scene>
     </scenes>
     <resources>
